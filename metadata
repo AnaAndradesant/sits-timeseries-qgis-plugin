@@ -1,0 +1,17 @@
+[general]
+name=SITS Time Series Extractor
+qgisMinimumVersion=3.16
+description=Extraia séries temporais do Brazil Data Cube (BDC) clicando no mapa ou inserindo coordenadas manualmente, usando a biblioteca SITS do R.
+version=1.10.0
+author=Ana Andrade
+email=anacarolinasantos580@gmail.com
+about=Plugin desenvolvido por Ana Andrade (Analista de Geoprocessamento) para extração e visualização de séries temporais Sentinel-2 via SITS/BDC. Suporta captura de ponto, polígono ou feição de camada ativa, seleção de bandas e índices espectrais (NDVI, NBR, NDWI, EVI), intervalo de datas, filtragem Savitzky-Golay e comparação visual entre duas extrações.
+tracker=https://github.com/seu-usuario/sits-timeseries-plugin/issues
+repository=https://github.com/seu-usuario/sits-timeseries-plugin
+hasProcessingProvider=no
+tags=remote sensing,time series,sentinel,BDC,SITS,R,NDVI
+homepage=https://github.com/seu-usuario/sits-timeseries-plugin
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
