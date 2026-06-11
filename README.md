@@ -64,48 +64,37 @@ O painel aparecerá automaticamente na barra lateral do QGIS.
 ## Interface
 
 ```
-┌──────────────────────────────────────────────────┐
-│            SITS Time Series • Sentinel-2         │
-├──────────────────────────────────────────────────┤
-│ MODO DE AMOSTRAGEM                               │
-│                                                  │
-│ ○ Ponto    ● Polígono    ○ Camada ativa          │
-│                                                  │
-│ [ Desenhar polígono no mapa ]                    │
-│                                                  │
-│ Pontos amostrados : [ 9 ]                        │
-│ 3–9 = rápido   |   10–20 = mais preciso          │
-├──────────────────────────────────────────────────┤
-│ INTERVALO DE DATAS                               │
-│                                                  │
-│ Data inicial : [ 2023-08-01 ]                    │
-│ Data final   : [ 2025-07-31 ]                    │
-├──────────────────────────────────────────────────┤
-│ BANDAS / ÍNDICES                                 │
-│                                                  │
-│ □ B01  □ B02  □ B03  ☑ B04  □ B05  □ B06        │
-│ □ B07  ☑ B08  □ B8A  □ B09  ☑ B11  □ B12        │
-│                                                  │
-│ ☑ NDVI  □ NBR  □ NDWI □ EVI                     │
-├──────────────────────────────────────────────────┤
-│ COMPARAÇÃO DE SÉRIES                             │
-│                                                  │
-│ ☑ Série 1  | Ponto    | 2023-08-01 → 2025-07-31 │
-│ ☑ Série 2  | Polígono | 2024-01-01 → ...        │
-│                                                  │
-│ [ Comparar Selecionados ]                        │
-├──────────────────────────────────────────────────┤
-│ CONFIGURAÇÕES DO R                               │
-│                                                  │
-│ Status : Conectado                               │
-│                                                  │
-│ Rscript.exe                                      │
-│ [ C:\...\Rscript.exe ] [ ... ]                   │
-├──────────────────────────────────────────────────┤
-│ [ Extrair e Plotar ]    [ Cancelar ]             │
-│                                                  │
-│ ████████████░░░░░░░░  3/4  Calculando...         │
-└──────────────────────────────────────────────────┘
++-----------------------------------------------+
+|   SITS Time Series  .  BDC / Sentinel-2       |
++-----------------------------------------------+
+|  MODO DE AMOSTRAGEM                           |
+|    ( ) Ponto   (*) Poligono   ( ) Camada      |
+|    [Desenhar poligono no mapa            ]    |
+|    Pontos amostrados: [9]                     |
+|    3-9 = rapido | 10-20 = preciso | >20 lento |
++-----------------------------------------------+
+|  DATAS                                        |
+|    Inicial : [2023-08-01]                     |
+|    Final   : [2025-07-31]                     |
++-----------------------------------------------+
+|  BANDAS / INDICES                             |
+|    [ ]B01  [ ]B02  [ ]B03  [x]B04  [ ]B05     |
+|    [ ]B06  [ ]B07  [x]B08  [ ]B8A  [ ]B09     |
+|    [x]B11  [ ]B12                             |
+|    [x]NDVI  [ ]NBR  [ ]NDWI  [ ]EVI           |
++-----------------------------------------------+
+|  COMPARACAO DE SERIES                         |
+|    [v] #1  Ponto     | 2023-08-01 -> 2025-... |
+|    [v] #2  Poligono  | 2024-01-01 -> 2025-... |
+|    [ Comparar selecionados ]                  |
++-----------------------------------------------+
+|  CONFIGURACOES DO R                           |
+|    [OK] Servidor R pronto                     |
+|    [C:\Program Files\R\R-4.x\bin\Rscript ] [>]|
++-----------------------------------------------+
+|  [ Extrair e Plotar ]       [ Cancelar ]      |
+|  [########........]  3/4 -- Calculando...     |
++-----------------------------------------------+
 ```
 
 ---
