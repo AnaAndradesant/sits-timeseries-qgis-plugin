@@ -1,0 +1,5 @@
+tracker=https://github.com/AnaAndradesant/sits-timeseries-qgis-plugin/issues
+
+repository=https://github.com/AnaAndradesant/sits-timeseries-qgis-plugin
+
+homepage=https://github.com/AnaAndradesant/sits-timeseries-qgis-plugin
